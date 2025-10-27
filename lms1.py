@@ -1,5 +1,5 @@
 import streamlit as st
-import pymysql
+import sqlite3
 import pandas as pd
 from datetime import date, timedelta
 
@@ -556,3 +556,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
